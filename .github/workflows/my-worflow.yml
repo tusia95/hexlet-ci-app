@@ -1,6 +1,9 @@
 # Пример для проекта на Node.js
+name: build-project
+# on – определяет события, которые запускают воркфлоу
+on: push
 jobs:
-  setup-test: # имя взято для примера
+  build: # имя взято для примера
     runs-on: ubuntu-latest
 
     steps:
